@@ -1,0 +1,86 @@
+/* ============================================================
+   VARIABLES.CSS — Design Tokens
+   India Tours by Car & Driver
+   Theme: Warm Ivory + Terracotta + Teal — Living Heritage
+   ============================================================ */
+:root {
+  /* Base backgrounds — warm off-white, light cream */
+  --clr-ocean:      #fdf7f0;
+  --clr-ocean-2:    #f9f1e6;
+  --clr-ocean-3:    #f2e8d8;
+  --clr-ocean-card: #ffffff;
+  --clr-ocean-deep: #ede4d8;
+
+  /* Terracotta — primary accent */
+  --clr-red:           #c9622f;
+  --clr-red-bright:    #e07040;
+  --clr-red-deep:      #a04a1e;
+  --clr-red-pale:      rgba(201,98,47,0.10);
+  --clr-red-glow:      rgba(201,98,47,0.22);
+
+  /* Teal — secondary accent */
+  --clr-teal:          #2d7a7a;
+  --clr-teal-bright:   #3a9898;
+  --clr-teal-pale:     rgba(45,122,122,0.10);
+
+  --clr-white:         #ffffff;
+  --clr-off-white:     #fdf7f0;
+  --clr-cream:         #faf4ea;
+  --clr-ivory:         #f2e8d8;
+
+  --clr-saffron:       #e8892b;
+  --clr-saffron-light: #f5a542;
+  --clr-saffron-pale:  rgba(232,137,43,0.13);
+
+  /* Text — dark warm brown tones */
+  --clr-text:          #2c1f0e;
+  --clr-text-muted:    #8a7060;
+  --clr-text-light:    #5c4030;
+  --clr-text-dark:     #1a0f04;
+
+  --clr-border:        rgba(44,31,14,0.10);
+  --clr-border-red:    rgba(201,98,47,0.28);
+  --clr-border-mid:    rgba(44,31,14,0.18);
+
+  --grad-hero:  linear-gradient(135deg,rgba(26,15,4,0.78) 0%,rgba(160,74,30,0.35) 55%,rgba(26,15,4,0.82) 100%);
+  --grad-red:   linear-gradient(135deg,#c9622f 0%,#a04a1e 100%);
+  --grad-card:  linear-gradient(160deg,#ffffff 0%,#fdf7f0 100%);
+
+  --shadow-sm:   0 2px 10px rgba(44,31,14,0.10);
+  --shadow-md:   0 6px 28px rgba(44,31,14,0.14);
+  --shadow-lg:   0 16px 56px rgba(44,31,14,0.18);
+  --shadow-red:  0 4px 22px rgba(201,98,47,0.32);
+  --shadow-card: 0 4px 24px rgba(44,31,14,0.12),0 1px 0 rgba(255,255,255,0.9) inset;
+
+  /* Playfair Display for headings; Lato for clean body */
+  --ff-display: 'Playfair Display','Georgia',serif;
+  --ff-body:    'Lato','Helvetica Neue',sans-serif;
+  --ff-accent:  'Cinzel','Trajan Pro',serif;
+
+  --fs-xs:   0.72rem;
+  --fs-sm:   0.875rem;
+  --fs-base: 1rem;
+  --fs-md:   1.1rem;
+  --fs-lg:   1.35rem;
+  --fs-xl:   1.7rem;
+  --fs-2xl:  2.2rem;
+  --fs-3xl:  3rem;
+  --fs-4xl:  4rem;
+  --fs-5xl:  5.5rem;
+
+  --sp-xs:  4px;  --sp-sm:  8px;  --sp-md: 16px;
+  --sp-lg: 24px;  --sp-xl: 40px;  --sp-2xl:64px; --sp-3xl:96px;
+
+  --r-sm:   4px;  --r-md:  8px;
+  --r-lg:  14px;  --r-xl: 22px;  --r-pill:999px;
+
+  --tr-fast:   0.15s ease;
+  --tr-base:   0.25s ease;
+  --tr-slow:   0.42s cubic-bezier(0.4,0,0.2,1);
+  --tr-spring: 0.48s cubic-bezier(0.34,1.56,0.64,1);
+
+  --container-max: 1260px;
+  --container-pad: clamp(16px,5vw,60px);
+  --nav-height:    70px;
+  --trust-height:  34px;
+}
